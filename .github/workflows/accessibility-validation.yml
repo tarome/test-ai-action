@@ -3,7 +3,7 @@ name: Accessibility Validation
 on:
     push:
         branches:
-            - master
+            - main
     pull_request:
         branches:
             - '**'
