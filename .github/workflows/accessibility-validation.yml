@@ -22,7 +22,7 @@ jobs:
               with:
                   repo-token: ${{ secrets.GITHUB_TOKEN }}
                   # Provide either site-dir or url
-                  site-dir: ${{ github.workspace }}/website-root
+                  # site-dir: ${{ github.workspace }}/path-to-built-website
                   # url: your-website-url
 
             - name: Upload report artifact
